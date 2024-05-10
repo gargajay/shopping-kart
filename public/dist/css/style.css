@@ -1,0 +1,118 @@
+html {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+  
+  .pricing-header {
+    max-width: 700px;
+  }
+  
+  .card-deck .card {
+    min-width: 220px;
+  }
+
+  html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+/* cart css */
+
+
+  
+  .table-image {
+    
+    thead {
+      td, th {
+        border: 0;
+        color: #666;
+        font-size: 0.8rem;
+      }
+    }
+    
+    td, th {
+      vertical-align: middle;
+      text-align: center;
+      
+      &.qty {
+        max-width: 2rem;
+      }
+    }
+  }
+  
+  .price {
+    margin-left: 1rem;
+  }
+  
+  .modal-footer {
+    padding-top: 0rem;
+  }
+
+  /* // loader */
+
+  .web-loader{
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(8,8,8, .6);
+    top:0;
+    left:0;
+
+  }
+
+  .web-loader .spinner-border{
+    height: 48 px !important;
+    width: 48 px !important;
+    border: 5px solid currentColor;
+    border-right-color:transparent;
+  }

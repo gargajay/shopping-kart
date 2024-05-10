@@ -1,0 +1,6 @@
+<?php
+    
+defined("STATUS_OK") OR define("STATUS_OK",200);
+defined("STATUS_BAD_REQUEST") OR define("STATUS_BAD_REQUEST",400);
+defined("STATUS_UNAUTHRIZED") OR define("STATUS_UNAUTHRIZED",401);
+defined("STATUS_SERVER_ERROR") OR define("STATUS_SERVER_ERROR",500);
